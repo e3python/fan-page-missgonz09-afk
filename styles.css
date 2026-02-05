@@ -1,0 +1,43 @@
+/* Basic stylesheet for the fan page */
+html, body {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 2rem;
+  line-height: 1.6;
+  color: #04adfc;
+  background: #ffffff;
+}
+h1 {
+  color: #ff0101;
+  margin-bottom: 0.25rem;
+}
+h3 {
+  color: #0723f8;
+  font-weight: 600;
+  margin-top: 0;
+}
+p {
+  max-width: 70ch;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(18, 75, 190, 0.06);
+}
+
+/* Small responsive tweak */
+@media (max-width: 520px) {
+  body { margin: 1rem; }
+  p { padding: 0.75rem; }
+}
+
+/* Utility class to display a smaller, responsive image */
+.small-img {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
